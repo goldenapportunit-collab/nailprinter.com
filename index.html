@@ -1,0 +1,1476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Nails-LiMing professional automatic nail printer and nail art technology."
+    >
+
+    <meta
+        name="theme-color"
+        content="#0d0d0f"
+    >
+
+    <title>Nails-LiMing | Smart Nail Printing Technology</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         PAGE LOADER
+    ========================== -->
+
+    <div class="page-loader" id="pageLoader">
+        <div class="loader-logo">N</div>
+        <div class="loader-line"></div>
+        <p>NAILS-LIMING</p>
+    </div>
+
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header class="site-header" id="siteHeader">
+
+        <div class="container header-inner">
+
+            <!-- Logo -->
+            <a href="#home" class="brand" aria-label="Nails-LiMing Home">
+
+                <span class="brand-mark">N</span>
+
+                <span class="brand-text">
+                    <strong>NAILS</strong>
+                    <span>-LiMing</span>
+                </span>
+
+            </a>
+
+
+            <!-- Desktop Navigation -->
+            <nav
+                class="desktop-nav"
+                id="desktopNav"
+                aria-label="Main navigation"
+            >
+
+                <a href="#home" class="nav-link active">Home</a>
+
+                <a href="#products" class="nav-link">Products</a>
+
+                <a href="#technology" class="nav-link">Technology</a>
+
+                <a href="#about" class="nav-link">About</a>
+
+                <a href="#contact" class="nav-link">Contact</a>
+
+            </nav>
+
+
+            <!-- Header Actions -->
+            <div class="header-actions">
+
+                <button
+                    class="icon-button"
+                    id="searchButton"
+                    type="button"
+                    aria-label="Open search"
+                >
+                    <svg
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                    >
+                        <circle cx="11" cy="11" r="6.5"></circle>
+                        <path d="M16 16L21 21"></path>
+                    </svg>
+                </button>
+
+
+                <button
+                    class="cart-button"
+                    id="cartButton"
+                    type="button"
+                    aria-label="Open shopping cart"
+                >
+
+                    <svg
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                    >
+                        <path d="M3 4h2l2.2 10.2a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 1.9-1.4L21 8H6"></path>
+                        <circle cx="10" cy="19" r="1.2"></circle>
+                        <circle cx="18" cy="19" r="1.2"></circle>
+                    </svg>
+
+                    <span
+                        class="cart-count"
+                        id="cartCount"
+                    >
+                        0
+                    </span>
+
+                </button>
+
+
+                <!-- Mobile Hamburger -->
+               <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false">
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+
+<nav class="navbar" id="navMenu">
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+            </div>
+
+        </div>
+
+
+        <!-- Mobile Navigation -->
+        <nav
+            class="mobile-nav"
+            id="mobileNav"
+            aria-label="Mobile navigation"
+        >
+
+            <a href="#home">Home</a>
+
+            <a href="#products">Products</a>
+
+            <a href="#technology">Technology</a>
+
+            <a href="#about">About</a>
+
+            <a href="#contact">Contact</a>
+
+            <a
+                href="#products"
+                class="mobile-nav-cta"
+            >
+                Explore Printers
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =========================
+         SEARCH OVERLAY
+    ========================== -->
+
+    <div
+        class="search-overlay"
+        id="searchOverlay"
+        aria-hidden="true"
+    >
+
+        <div class="search-box">
+
+            <button
+                class="modal-close"
+                id="closeSearch"
+                type="button"
+                aria-label="Close search"
+            >
+                ×
+            </button>
+
+            <p class="eyebrow">FIND YOUR MACHINE</p>
+
+            <h2>Search Products</h2>
+
+            <div class="search-input-wrapper">
+
+                <svg
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                >
+                    <circle cx="11" cy="11" r="6.5"></circle>
+                    <path d="M16 16L21 21"></path>
+                </svg>
+
+                <input
+                    type="search"
+                    id="searchInput"
+                    placeholder="Search nail printers..."
+                    autocomplete="off"
+                >
+
+            </div>
+
+            <div
+                class="search-results"
+                id="searchResults"
+            ></div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <main>
+
+        <section
+            class="hero"
+            id="home"
+        >
+
+            <div class="hero-glow hero-glow-one"></div>
+            <div class="hero-glow hero-glow-two"></div>
+
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span>
+                        Next Generation Nail Technology
+                    </div>
+
+                    <h1>
+                        Print.
+                        <em>Perfect.</em>
+                        Repeat.
+                    </h1>
+
+                    <p class="hero-description">
+                        Professional smart nail printers engineered
+                        for salons, artists and beauty businesses
+                        that want to create more in less time.
+                    </p>
+
+
+                    <div class="hero-actions">
+
+                        <a
+                            href="#products"
+                            class="primary-button"
+                        >
+                            Explore Printers
+
+                            <span class="button-arrow">↗</span>
+                        </a>
+
+
+                        <a
+                            href="#technology"
+                            class="secondary-button"
+                        >
+                            Discover Technology
+                        </a>
+
+                    </div>
+
+
+                    <div class="hero-stats">
+
+                        <div class="stat">
+
+                            <strong>10K+</strong>
+
+                            <span>
+                                Designs
+                            </span>
+
+                        </div>
+
+
+                        <div class="stat-divider"></div>
+
+
+                        <div class="stat">
+
+                            <strong>15s</strong>
+
+                            <span>
+                                Fast Printing
+                            </span>
+
+                        </div>
+
+
+                        <div class="stat-divider"></div>
+
+
+                        <div class="stat">
+
+                            <strong>4K</strong>
+
+                            <span>
+                                Precision
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Hero Product Visual -->
+
+                <div class="hero-visual">
+
+                    <div class="visual-ring ring-one"></div>
+
+                    <div class="visual-ring ring-two"></div>
+
+
+                    <div class="product-stage">
+
+                        <div class="floating-label label-top">
+                            <span>01</span>
+                            Smart Print
+                        </div>
+
+                        <div class="printer-machine">
+
+                            <div class="printer-top">
+
+                                <div class="printer-screen">
+
+                                    <div class="screen-header">
+                                        NAILS
+                                    </div>
+
+                                    <div class="screen-design">
+                                        ✦
+                                    </div>
+
+                                    <div class="screen-status">
+                                        READY
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="printer-body">
+
+                                <div class="printer-slot">
+
+                                    <div class="nail-preview">
+                                        <span>✦</span>
+                                    </div>
+
+                                </div>
+
+                                <div class="printer-light"></div>
+
+                            </div>
+
+
+                            <div class="printer-base">
+
+                                <span></span>
+                                <span></span>
+                                <span></span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="floating-label label-bottom">
+
+                            <span>02</span>
+
+                            Studio Grade
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             TRUST BAR
+        ========================== -->
+
+        <section class="trust-section">
+
+            <div class="container trust-inner">
+
+                <p>ENGINEERED FOR MODERN BEAUTY BUSINESSES</p>
+
+                <div class="trust-items">
+
+                    <span>✦ SALON READY</span>
+
+                    <span>✦ PROFESSIONAL</span>
+
+                    <span>✦ SMART PRINTING</span>
+
+                    <span>✦ GLOBAL SUPPORT</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PRODUCTS
+        ========================== -->
+
+        <section
+            class="products-section section"
+            id="products"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <p class="eyebrow">
+                            OUR COLLECTION
+                        </p>
+
+                        <h2>
+                            Built for
+                            <em>precision.</em>
+                        </h2>
+
+                    </div>
+
+                    <p class="section-description">
+                        Choose a professional printing solution
+                        designed to transform your nail art workflow.
+                    </p>
+
+                </div>
+
+
+                <!-- Category Filters -->
+
+                <div
+                    class="filter-bar"
+                    id="filterBar"
+                >
+
+                    <button
+                        class="filter-button active"
+                        type="button"
+                        data-category="all"
+                    >
+                        All
+                    </button>
+
+                    <button
+                        class="filter-button"
+                        type="button"
+                        data-category="professional"
+                    >
+                        Professional
+                    </button>
+
+                    <button
+                        class="filter-button"
+                        type="button"
+                        data-category="compact"
+                    >
+                        Compact
+                    </button>
+
+                    <button
+                        class="filter-button"
+                        type="button"
+                        data-category="premium"
+                    >
+                        Premium
+                    </button>
+
+                </div>
+
+
+                <!-- Product Grid -->
+
+                <div
+                    class="product-grid"
+                    id="productGrid"
+                >
+
+                    <!-- Product 1 -->
+
+                    <article
+                        class="product-card"
+                        data-product-id="1"
+                        data-category="professional"
+                    >
+
+                        <div class="product-image product-image-one">
+
+                            <span class="product-badge">
+                                BESTSELLER
+                            </span>
+
+                            <div class="mini-printer">
+                                <div class="mini-screen">N</div>
+                                <div class="mini-slot"></div>
+                            </div>
+
+                            <button
+                                class="quick-view"
+                                type="button"
+                                data-product="1"
+                            >
+                                Quick View
+                            </button>
+
+                        </div>
+
+
+                        <div class="product-info">
+
+                            <p class="product-category">
+                                PROFESSIONAL
+                            </p>
+
+                            <h3>
+                                LiMing Pro X1
+                            </h3>
+
+                            <p>
+                                High-speed professional nail
+                                printing system for busy salons.
+                            </p>
+
+                            <div class="product-bottom">
+
+                                <strong>
+                                    $1,299
+                                </strong>
+
+                                <button
+                                    class="add-cart"
+                                    type="button"
+                                    data-product="1"
+                                >
+                                    Add to Cart
+                                    <span>+</span>
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 2 -->
+
+                    <article
+                        class="product-card"
+                        data-product-id="2"
+                        data-category="compact"
+                    >
+
+                        <div class="product-image product-image-two">
+
+                            <span class="product-badge soft">
+                                COMPACT
+                            </span>
+
+                            <div class="mini-printer compact">
+                                <div class="mini-screen">L</div>
+                                <div class="mini-slot"></div>
+                            </div>
+
+                            <button
+                                class="quick-view"
+                                type="button"
+                                data-product="2"
+                            >
+                                Quick View
+                            </button>
+
+                        </div>
+
+
+                        <div class="product-info">
+
+                            <p class="product-category">
+                                COMPACT
+                            </p>
+
+                            <h3>
+                                LiMing Mini
+                            </h3>
+
+                            <p>
+                                Compact smart printing for independent
+                                nail artists and smaller studios.
+                            </p>
+
+                            <div class="product-bottom">
+
+                                <strong>
+                                    $799
+                                </strong>
+
+                                <button
+                                    class="add-cart"
+                                    type="button"
+                                    data-product="2"
+                                >
+                                    Add to Cart
+                                    <span>+</span>
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 3 -->
+
+                    <article
+                        class="product-card"
+                        data-product-id="3"
+                        data-category="premium"
+                    >
+
+                        <div class="product-image product-image-three">
+
+                            <span class="product-badge gold">
+                                FLAGSHIP
+                            </span>
+
+                            <div class="mini-printer premium">
+                                <div class="mini-screen">L+</div>
+                                <div class="mini-slot"></div>
+                            </div>
+
+                            <button
+                                class="quick-view"
+                                type="button"
+                                data-product="3"
+                            >
+                                Quick View
+                            </button>
+
+                        </div>
+
+
+                        <div class="product-info">
+
+                            <p class="product-category">
+                                PREMIUM
+                            </p>
+
+                            <h3>
+                                LiMing Studio+
+                            </h3>
+
+                            <p>
+                                Flagship precision printing system
+                                created for premium beauty studios.
+                            </p>
+
+                            <div class="product-bottom">
+
+                                <strong>
+                                    $1,899
+                                </strong>
+
+                                <button
+                                    class="add-cart"
+                                    type="button"
+                                    data-product="3"
+                                >
+                                    Add to Cart
+                                    <span>+</span>
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+                <div
+                    class="empty-products"
+                    id="emptyProducts"
+                    hidden
+                >
+                    <h3>No products found</h3>
+                    <p>
+                        Try another search or category.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             TECHNOLOGY
+        ========================== -->
+
+        <section
+            class="technology-section section"
+            id="technology"
+        >
+
+            <div class="container technology-grid">
+
+                <div class="technology-visual">
+
+                    <div class="tech-circle">
+
+                        <div class="tech-core">
+                            <span>LiMing</span>
+                            <strong>AI</strong>
+                        </div>
+
+                        <div class="orbit orbit-one"></div>
+                        <div class="orbit orbit-two"></div>
+
+                    </div>
+
+                    <div class="tech-chip chip-one">
+                        4K Precision
+                    </div>
+
+                    <div class="tech-chip chip-two">
+                        AI Powered
+                    </div>
+
+                    <div class="tech-chip chip-three">
+                        15s Print
+                    </div>
+
+                </div>
+
+
+                <div class="technology-content">
+
+                    <p class="eyebrow">
+                        THE TECHNOLOGY
+                    </p>
+
+                    <h2>
+                        Your imagination,
+                        <em>printed.</em>
+                    </h2>
+
+                    <p>
+                        LiMing technology combines intelligent
+                        image processing, precision positioning
+                        and high-resolution printing to make
+                        professional nail art faster and easier.
+                    </p>
+
+
+                    <div class="feature-list">
+
+                        <div class="feature-item">
+
+                            <div class="feature-number">
+                                01
+                            </div>
+
+                            <div>
+                                <h3>
+                                    Intelligent Recognition
+                                </h3>
+
+                                <p>
+                                    Automatically adapts designs
+                                    to the nail surface.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="feature-item">
+
+                            <div class="feature-number">
+                                02
+                            </div>
+
+                            <div>
+                                <h3>
+                                    High Precision
+                                </h3>
+
+                                <p>
+                                    Designed for crisp,
+                                    detailed nail artwork.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="feature-item">
+
+                            <div class="feature-number">
+                                03
+                            </div>
+
+                            <div>
+                                <h3>
+                                    Fast Workflow
+                                </h3>
+
+                                <p>
+                                    Reduce printing time and
+                                    serve more clients.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+
+        <section
+            class="about-section section"
+            id="about"
+        >
+
+            <div class="container">
+
+                <div class="about-card">
+
+                    <div class="about-content">
+
+                        <p class="eyebrow">
+                            ABOUT NAILS-LIMING
+                        </p>
+
+                        <h2>
+                            Technology that
+                            <em>elevates</em>
+                            nail artistry.
+                        </h2>
+
+                        <p>
+                            We believe professional nail technology
+                            should be beautiful, intuitive and
+                            powerful. Nails-LiMing is built around
+                            that belief.
+                        </p>
+
+                        <a
+                            href="#contact"
+                            class="primary-button"
+                        >
+                            Talk to Our Team
+                            <span class="button-arrow">↗</span>
+                        </a>
+
+                    </div>
+
+
+                    <div class="about-number">
+
+                        <span>EST.</span>
+
+                        <strong>
+                            2016
+                        </strong>
+
+                        <small>
+                            Beauty Technology
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACT CTA
+        ========================== -->
+
+        <section
+            class="contact-section section"
+            id="contact"
+        >
+
+            <div class="container">
+
+                <div class="contact-card">
+
+                    <div>
+
+                        <p class="eyebrow">
+                            READY TO PRINT DIFFERENTLY?
+                        </p>
+
+                        <h2>
+                            Let's build your
+                            <em>next level</em>
+                            nail studio.
+                        </h2>
+
+                    </div>
+
+
+                    <div class="contact-actions">
+
+                        <!-- IMPORTANT:
+                             Replace the number in script.js -->
+                        <button
+                            class="whatsapp-button"
+                            id="messageUsButton"
+                            type="button"
+                        >
+
+                            <span class="whatsapp-icon">
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M20 11.5a8.2 8.2 0 0 1-12.2 7.1L4 20l1.4-3.6A8.2 8.2 0 1 1 20 11.5Z"></path>
+                                    <path d="M8.8 8.2c.2-.3.4-.3.7-.3h.4c.2 0 .3.1.4.3l.6 1.4c.1.2.1.4-.1.6l-.5.6c.5 1 1.3 1.8 2.3 2.3l.6-.5c.2-.2.4-.2.6-.1l1.4.6c.2.1.3.2.3.4v.4c0 .3 0 .5-.3.7-.4.3-1 .5-1.5.4-1.4-.2-2.8-1-4-2.2-1.2-1.2-2-2.6-2.2-4-.1-.6.1-1.1.4-1.5Z"></path>
+                                </svg>
+                            </span>
+
+                            Message Us
+
+                        </button>
+
+
+                        <a
+                            href="mailto:info@nails-liming.com"
+                            class="email-button"
+                        >
+                            Email Us
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="site-footer">
+
+        <div class="container footer-grid">
+
+            <div class="footer-brand">
+
+                <a
+                    href="#home"
+                    class="brand"
+                >
+
+                    <span class="brand-mark">
+                        N
+                    </span>
+
+                    <span class="brand-text">
+                        <strong>NAILS</strong>
+                        <span>-LiMing</span>
+                    </span>
+
+                </a>
+
+                <p>
+                    Smart technology for
+                    modern nail artistry.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Explore</h3>
+
+                <a href="#products">Products</a>
+
+                <a href="#technology">Technology</a>
+
+                <a href="#about">About</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Support</h3>
+
+                <a href="#contact">Contact</a>
+
+                <a href="#contact">Sales</a>
+
+                <a href="#contact">Support</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Contact</h3>
+
+                <a href="mailto:info@nails-liming.com">
+                    info@nails-liming.com
+                </a>
+
+                <button
+                    class="footer-whatsapp"
+                    id="footerWhatsapp"
+                    type="button"
+                >
+                    WhatsApp →
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="container footer-bottom">
+
+            <p>
+                © <span id="currentYear"></span>
+                Nails-LiMing. All rights reserved.
+            </p>
+
+            <p>
+                Designed for modern beauty businesses.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =========================
+         PRODUCT MODAL
+    ========================== -->
+
+    <div
+        class="modal-overlay"
+        id="productModal"
+        aria-hidden="true"
+    >
+
+        <div
+            class="product-modal"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="modalProductName"
+        >
+
+            <button
+                class="modal-close"
+                id="closeProductModal"
+                type="button"
+                aria-label="Close product details"
+            >
+                ×
+            </button>
+
+
+            <div class="modal-product-visual">
+
+                <div
+                    class="modal-mini-printer"
+                    id="modalPrinter"
+                >
+
+                    <div class="modal-screen">
+                        N
+                    </div>
+
+                    <div class="modal-slot"></div>
+
+                </div>
+
+            </div>
+
+
+            <div class="modal-product-content">
+
+                <p
+                    class="product-category"
+                    id="modalCategory"
+                >
+                    PROFESSIONAL
+                </p>
+
+                <h2 id="modalProductName">
+                    LiMing Pro X1
+                </h2>
+
+                <p id="modalDescription">
+                    Professional smart nail printer.
+                </p>
+
+                <div class="modal-price" id="modalPrice">
+                    $1,299
+                </div>
+
+
+                <div class="modal-features">
+
+                    <span>✓ High Precision</span>
+
+                    <span>✓ Fast Printing</span>
+
+                    <span>✓ Smart Recognition</span>
+
+                    <span>✓ Professional Support</span>
+
+                </div>
+
+
+                <button
+                    class="primary-button full-button"
+                    id="modalAddCart"
+                    type="button"
+                >
+                    Add to Cart
+                    <span class="button-arrow">+</span>
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         CART DRAWER
+    ========================== -->
+
+    <div
+        class="cart-overlay"
+        id="cartOverlay"
+        aria-hidden="true"
+    >
+
+        <aside
+            class="cart-drawer"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="cartTitle"
+        >
+
+            <div class="cart-header">
+
+                <div>
+
+                    <p class="eyebrow">
+                        YOUR SELECTION
+                    </p>
+
+                    <h2 id="cartTitle">
+                        Shopping Cart
+                    </h2>
+
+                </div>
+
+                <button
+                    class="modal-close"
+                    id="closeCart"
+                    type="button"
+                    aria-label="Close cart"
+                >
+                    ×
+                </button>
+
+            </div>
+
+
+            <div
+                class="cart-items"
+                id="cartItems"
+            ></div>
+
+
+            <div
+                class="cart-empty"
+                id="cartEmpty"
+            >
+
+                <div class="empty-icon">
+                    🛍
+                </div>
+
+                <h3>
+                    Your cart is empty
+                </h3>
+
+                <p>
+                    Add a printer to get started.
+                </p>
+
+                <button
+                    class="primary-button"
+                    id="continueShopping"
+                    type="button"
+                >
+                    Explore Products
+                </button>
+
+            </div>
+
+
+            <div
+                class="cart-footer"
+                id="cartFooter"
+                hidden
+            >
+
+                <div class="cart-total-row">
+
+                    <span>
+                        Total
+                    </span>
+
+                    <strong id="cartTotal">
+                        $0
+                    </strong>
+
+                </div>
+
+
+                <button
+                    class="checkout-button"
+                    id="checkoutButton"
+                    type="button"
+                >
+                    Proceed to Order
+                    <span>→</span>
+                </button>
+
+
+                <button
+                    class="cart-whatsapp"
+                    id="cartWhatsapp"
+                    type="button"
+                >
+                    Order via WhatsApp
+                </button>
+
+            </div>
+
+        </aside>
+
+    </div>
+
+
+    <!-- =========================
+         CHECKOUT MODAL
+    ========================== -->
+
+    <div
+        class="modal-overlay"
+        id="checkoutModal"
+        aria-hidden="true"
+    >
+
+        <div
+            class="checkout-modal"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="checkoutTitle"
+        >
+
+            <button
+                class="modal-close"
+                id="closeCheckout"
+                type="button"
+                aria-label="Close checkout"
+            >
+                ×
+            </button>
+
+
+            <p class="eyebrow">
+                REQUEST YOUR ORDER
+            </p>
+
+            <h2 id="checkoutTitle">
+                Let's get your printer ready.
+            </h2>
+
+            <p class="checkout-intro">
+                Enter your details and we'll prepare
+                your order request through WhatsApp.
+            </p>
+
+
+            <form id="checkoutForm">
+
+                <div class="form-group">
+
+                    <label for="customerName">
+                        Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="customerName"
+                        name="name"
+                        placeholder="Your name"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="customerPhone">
+                        Phone / WhatsApp
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="customerPhone"
+                        name="phone"
+                        placeholder="+91..."
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="customerEmail">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="customerEmail"
+                        name="email"
+                        placeholder="you@example.com"
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="customerMessage">
+                        Message
+                    </label>
+
+                    <textarea
+                        id="customerMessage"
+                        name="message"
+                        rows="4"
+                        placeholder="Tell us what you're looking for..."
+                    ></textarea>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="checkout-submit"
+                >
+                    Send Order Request
+                    <span>→</span>
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         TOAST
+    ========================== -->
+
+    <div
+        class="toast"
+        id="toast"
+        role="status"
+        aria-live="polite"
+    >
+
+        <span id="toastIcon">✓</span>
+
+        <span id="toastMessage">
+            Done
+        </span>
+
+    </div>
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
